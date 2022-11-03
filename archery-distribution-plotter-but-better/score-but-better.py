@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from tkinter import filedialog as fd
+import os
 
 # set input csv file and output directory using tkinters filedialog
 input_file = fd.askopenfilename(filetypes=[("CSV files", "*.csv")],title="Set input .csv file")
@@ -55,3 +56,4 @@ set_params()
 plot_target_face_and_ref_line(ax2)
 save_figure(output_dir,"scatter-plot")
 
+os.startfile(output_dir)
