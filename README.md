@@ -8,6 +8,8 @@ Target based on a WA 60cm Compound target
 
 See individual READMEs for more detailed documentation.
 
+-------------------------------------------------------
+
 Plans to expand on this project for the CS50-P 2022 Final Project
 - Let the user choose between CSV inputted data and a GUI which will let them plot their own arrows
 - Select from common classification round types which will each have their own attributes (total arrows, target face)
