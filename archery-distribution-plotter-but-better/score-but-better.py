@@ -51,7 +51,7 @@ plot_target_face_and_ref_line(ax1)
 save_figure(output_dir,"kde-plot")
 
 # Plots ax2 --> Scatter plot
-ax2 = sns.jointplot(data=df,x="x",y="neg_y")
+ax2 = sns.jointplot(data=df,x="x",y="neg_y",marker="+",color="black")
 plt.title("Scatter Plot w/ distributions", y=0)
 set_params()
 plot_target_face_and_ref_line(ax2)
