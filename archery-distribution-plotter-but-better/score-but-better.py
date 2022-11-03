@@ -20,7 +20,8 @@ sns.set_theme(style="darkgrid", palette="pastel")
 # passed in graph
 def plot_target_face_and_ref_line(ax):
     ax.refline(x=0, y=0)
-    ax.ax_joint.plot([0],[0],'o',ms=15,mec='gold',mfc='none')
+    ax.ax_joint.plot([0],[0],'o',ms=15,mec='gold',mfc='none') # inner ten for compound
+    ax.ax_joint.plot([0],[0],'o',ms=30,mec='gold',mfc='none') # outer ten for recurve
     ax.ax_joint.plot([0],[0],'o',ms=60,mec='gold',mfc='none')
     ax.ax_joint.plot([0],[0],'o',ms=90,mec='red',mfc='none')
     ax.ax_joint.plot([0],[0],'o',ms=120,mec='red',mfc='none')
