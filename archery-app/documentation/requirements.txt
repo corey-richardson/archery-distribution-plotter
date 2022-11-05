@@ -1,0 +1,8 @@
+pandas
+seaborn
+matplotlib
+PyQt5
+
+tkinter
+os
+sys
