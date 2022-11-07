@@ -8,7 +8,7 @@ from archer_class import Archer
 
 gui = tk.Tk()
 gui.geometry("500x500")
-gui.title("Arhcery Classifications")
+gui.title("Archery Classifications")
 
 label = ttk.Label(text="Archery Classifications")
 label.config(anchor=CENTER)
